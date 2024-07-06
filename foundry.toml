@@ -6,7 +6,7 @@ remappings = [
     '@openzeppelin/contracts=lib/openzeppelin-contracts/contracts',
     '@openzeppelin/contracts-upgradeable=lib/openzeppelin-contracts-upgradeable/contracts',
 ]
-ffi = true
+ffi = false
 fs_permissions = [
     { access = "read", path = "./broadcast" },
     { access = "read", path = "./reports" },
